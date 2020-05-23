@@ -8,7 +8,29 @@ function writePassword() {
 
   passwordText.value = password;
 
-}
+}// These are the lowercase, uppercase, symbol and number characters that the password can use
+  var lowercaseOption = ["abcdefghijklmnopqrstuvwxyz"];
+  var uppercaseOption = ["ABCDEFGHIJKLMNOPQRSTUVWXYZ"];
+  var symbolOption = ["!@#$%^&*()_~><-+"];
+  var numberOption = ["1234567890"];
 
-// Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
+  //This is what the password can be 
+  var finalPassword = "";
+
+  //This is the users choice for the length of the password and if they want to include lowercase, uppercase, symbols, or numbers
+  var passwordLengthChoice = "";
+  var lowercaseChoice;
+  var uppercaseChoice;
+  var symbolChoice;
+  var numberChoice;
+
+
+
+
+
+
+
+
+  
+  
+
