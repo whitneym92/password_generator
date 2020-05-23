@@ -34,7 +34,26 @@ function writePassword() {
     passwordLength = prompt("Try again, enter a number between 8-128.");
   }
   }
+  //Functions containing the users choice of lowercase, uppercase, symbol and number characters in password
+    //Lowercase function with confirm
+  function lowercaseConfirm() {
+  lowercaseChoice = confirm("Do you want your password to have lowercase letters?");
+  }
 
+    //Uppercase function with confirm
+  function uppercaseConfirm() {
+  uppercaseChoice = confirm("Do you want your password to have uppercase letters?");
+  }
+
+    //Symbol function with confirm
+  function symbolConfirm() {
+  symbolChoice = confirm("Do you wnat your password to have symbols?");
+  }
+
+    //Number function with confirm
+  function numberConfirm() {
+  numberChoice = confirm("Do yo want your password to have numbers?");
+  }
 
 
 
