@@ -24,6 +24,17 @@ function writePassword() {
   var symbolChoice;
   var numberChoice;
 
+  //Password function that contains a prompt on how long the user wants the password
+  //While loop to loop the code as long as the length is > 8 and < 128 
+  function passwordLengthPrompt() {
+  passwordLength = prompt("Enter a number between 8-128 for password length");
+ 
+  while(passwordLength < 8 || passwordLength > 128) {
+    alert("Enter a number between 8-128 for password length.");
+    passwordLength = prompt("Try again, enter a number between 8-128.");
+  }
+  }
+
 
 
 
