@@ -1,14 +1,14 @@
-// Assignment Code
-var generateBtn = document.querySelector("#generate");
+  // Assignment Code
+  var generateBtn = document.querySelector("#generate");
 
-// Write password to the #password input
-function writePassword() {
+  // Write password to the #password input
+  function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
-
+  
   passwordText.value = password;
-
-}// These are the lowercase, uppercase, symbol and number characters that the password can use
+}
+  // These are the lowercase, uppercase, symbol and number characters that the password can use
   var lowercase = ["abcdefghijklmnopqrstuvwxyz"];
   var uppercase = ["ABCDEFGHIJKLMNOPQRSTUVWXYZ"];
   var symbol = ["!@#$%^&*()_~><-+"];
