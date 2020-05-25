@@ -88,15 +88,3 @@ generateBtn.addEventListener("click", function() {
   numberConfirm();
   writePassword();
 });
-
-
-
-
-
-
-
-
-
-  
-  
-
